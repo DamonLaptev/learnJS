@@ -6,3 +6,9 @@
 
     *HINT* - MDN Web Docs are a good resource
 */
+
+console.log(typeof 41);
+console.log(typeof "41");
+console.log(typeof true);
+console.log(typeof null);
+console.log(typeof undefined);
