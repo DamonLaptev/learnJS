@@ -8,3 +8,9 @@
 */
 
 // string concatenation
+
+console.log("My" + "Home"); //string
+console.log(11 + "date"); //string
+console.log(true + false); //number
+console.log(true + true); //number
+console.log(false + false); //number

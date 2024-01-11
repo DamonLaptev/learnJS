@@ -9,3 +9,8 @@
     BONUS: What are all the possible values of ANY_NUMBER % 2?
     BONUS2: What are all the possible values of ANY_NUMBER % 10?
 */
+
+console.log(5 / 5);
+console.log(5 % 5);
+console.log(256 / 2);
+console.log(256 % 10);
