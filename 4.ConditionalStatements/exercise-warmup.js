@@ -5,3 +5,9 @@
     4. Log out the points at the end of the program (this should always log)
     5. Change points to start at 15 and run the program again
 */
+
+let points = 40;
+if (points > 20) {
+  points -= 10;
+  console.log(points);
+}
