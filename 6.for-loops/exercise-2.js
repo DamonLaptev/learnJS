@@ -9,3 +9,11 @@
     HINT2: This is not an ideal candidate for a for loop!
     HINT3: You don't have to provide all parts of the for loop construct
 */
+
+let loggedIn = false;
+
+for (let i = 0, loggedIn = false; i < 3; i++) {
+  if (i < 3) {
+    console.log("Incorrect login credentials");
+  }
+}

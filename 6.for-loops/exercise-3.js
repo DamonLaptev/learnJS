@@ -10,7 +10,7 @@
     Checkpoint! 20
     Checkpoint! 30
     Checkpoint! 40
-    Half way there!
+    You made it!
     Checkpoint! 60
     Checkpoint! 70
     Checkpoint! 80
@@ -18,3 +18,15 @@
     You made it!
     All, done!
 */
+
+for (let i = 10; i <= 100; i += 10) {
+  if (i === 100) {
+    console.log("You made it!");
+  } else if (i === 50) {
+    console.log("Half way there!");
+  } else {
+    console.log(`Checkpoint! ${i}`);
+  }
+}
+
+console.log("All, done!");
