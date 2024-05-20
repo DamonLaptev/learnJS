@@ -11,3 +11,14 @@
     HINT: Google for "random number js" to find a random
           number function built-in to Javascript to use
 */
+
+const bools = [true, true, false, true, false, false];
+
+const numbers = bools.map((num) => {
+  if (num) {
+    return Math.floor(Math.random() * 700);
+  }
+  return 0;
+});
+
+console.log(numbers);
