@@ -8,3 +8,13 @@
 
     3. Print out "prices" and "afterTax"
 */
+
+const prices = [1.23, 19.99, 85.2, 32.87, 8, 5.2];
+
+const afterTax = prices.reduce((sum, curr) => {
+  if (curr > 6) {
+    return sum + curr;
+  } else return curr * 1.2 + sum;
+}, 0);
+
+console.log(afterTax, prices);

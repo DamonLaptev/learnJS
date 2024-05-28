@@ -15,3 +15,13 @@
 
     BONUS^2: Can you do 1-4 all in one line?
 */
+
+const nums = [10, 30, 50, 70, 90];
+
+const finale = nums.reduce((sum, curr) => {
+  if (curr * curr > 1000) {
+    return sum + curr * curr;
+  } else return sum;
+}, 0);
+
+console.log(finale);
