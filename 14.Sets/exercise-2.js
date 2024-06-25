@@ -9,3 +9,16 @@
 
     *This is quite challenging and is a common interview question
 */
+
+const numbers = [10, 20, 15, 30, 15, 20, 35, 60, 10];
+
+const seemsNumber = new Set();
+
+for (let i = 0; i < numbers.length; i++) {
+  if (seemsNumber.has(numbers[i])) {
+    console.log(numbers[i]);
+    break;
+  }
+
+  seemsNumber.add(numbers[i]);
+}
