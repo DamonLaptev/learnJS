@@ -13,3 +13,19 @@
     4. What is the issue with this setup/code?
     5. How can we fix it so we can access "number" in the catch?
 */
+
+let number = 1337;
+
+try {
+  const randomNumber = Math.floor(Math.random() * 1001);
+  number += randomNumber;
+
+  console.log(number);
+
+  if (number < 2000) {
+    throw new Error("You lose!");
+  }
+} catch (error) {
+  console.error(error);
+  console.error(`We lost on number: ${number}`);
+}

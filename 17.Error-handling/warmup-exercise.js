@@ -8,3 +8,12 @@
        the error message
     6. Run the program again and see the difference
 */
+
+try {
+  console.log("Program started");
+
+  throw new Error("Uh oh!");
+} catch (error) {
+  console.error(error);
+}
+console.log("Program complete!");

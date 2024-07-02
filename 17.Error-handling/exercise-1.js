@@ -6,3 +6,14 @@
     4. Catch the error and console.error the loop number
     5. Make sure the loop goes all the way to 10
 */
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+  try {
+    if (i === 5) {
+      throw new Error("Boom!");
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
